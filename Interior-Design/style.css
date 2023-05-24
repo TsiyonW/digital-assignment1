@@ -1,0 +1,108 @@
+html,body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 5% 10%;
+}
+.menu{
+    margin: 10px 7%;
+}
+.top-menu{
+    border-bottom: 1px lightgray solid;
+}
+.bottom-menu{
+    padding: 20px 0;
+}
+.flex-row-inbetween{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-item{
+    padding-right: 30px;
+    padding-top: 5px;
+}
+.menu-icons{
+    border-left: 1px lightgray solid;
+    padding-right: 3px;
+}
+.bottom-menu-ul li{
+    display: inline;
+    list-style: none;
+}
+.bottom-menu-ul a:hover {
+    color: blue;
+    font-weight: bolder;
+}
+.bottom-menu-ul a , .top-menu a, .menu-item a{
+    text-decoration: none;
+    color: black;
+}
+.left-menu{
+    padding-bottom: 10px;
+}
+.img{
+    width: 100%;
+}
+.text-md{
+    font-size: large;
+}
+.text-xl{
+    font-size: 40px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-item-right{
+    width: 50%;
+}
+.flex-item-left{
+    width: 50%;
+    margin: 30px;
+}
+.text-justified{
+    text-align: justify;
+    margin: 15px;
+}
+.container-2{
+    background-color: rgb(21, 20, 20);
+}
+.icons{
+    width: 47px;
+    height: 50px;
+    padding-top: 15px;
+    margin-right: 5px;
+}
+.icon-sm{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.logo{
+    padding-top: 25px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.icon-text{
+    margin-right: 20px;
+}
+
+.text-sm{
+    font-size: small;
+    margin-top: 3px;
+}
+.text-golden{
+    font-size: larger;
+    color: darkgoldenrod;
+    margin-bottom: 0;
+}
+.active-menu{
+    border-bottom: 3px solid goldenrod;
+}
+
+.item-2{
+    background-color: rgb(10, 10, 10);
+}
